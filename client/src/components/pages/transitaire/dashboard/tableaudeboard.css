@@ -1,0 +1,34 @@
+.dashboard-container{
+    background-color: #f3f8fa;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 13vw;
+}
+.dashboard-content{
+    width: 86vw;
+    padding: 0 3vw;
+}
+.chart-part2{
+    display: flex;
+    justify-content: space-between;
+}
+.tableaudesign{
+    padding: var(--chakra-space-5);
+    box-shadow: var(--chakra-shadows-md);
+    border-width: 1px;
+    border-radius: var(--chakra-radii-lg);
+  
+    background: var(--chakra-colors-white);
+}
+.multiformdesign{
+    padding: var(--chakra-space-5);
+    box-shadow: var(--chakra-shadows-md);
+    border-width: 1px;
+    border-radius: var(--chakra-radii-lg);
+margin: 10px auto;
+width: 700px;
+    background: var(--chakra-colors-white);
+}
